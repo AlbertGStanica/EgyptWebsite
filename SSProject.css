@@ -1,0 +1,79 @@
+.container {
+    background-color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.header {
+    border: thin solid black;
+    background-color: rgb(93, 68, 7);
+    text-align: center;
+    font-size: 150%;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.header>:first-child {
+    border: thin black solid;
+    color: blueviolet;
+    padding: 15px;
+
+}
+
+.navbar {
+    border: thin solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+    grid-row: 2;
+}
+
+.navbar>button {
+    justify-items: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.homedeck img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homedeck {
+    grid-template-columns: auto;
+}
+
+.homecard {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+
+.homecard a {
+    display: block;
+}
+
+.homedeck div {
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+.homecard>:first-child {
+    color: aquamarine;
+}
+
+/* @media screen (max-width: 767px) {
+   
+} */
