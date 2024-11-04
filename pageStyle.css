@@ -6,9 +6,11 @@ h1 {
   margin: 0;
 }
 nav {
-  text-align: center;
-  background-color: yellow;
-  margin: 0;
+  border: thin solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  grid-row: 2;
 }
 header,
 img {
